@@ -1,0 +1,45 @@
+/* class applies to select element itself, not a wrapper element */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ 
+body{
+    /* The image used */
+	font-family: 'Montserrat', sans-serif;  
+background-image: url("../pics/20.png");
+
+  /* Full height */
+  max-height:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+
+  background-size: cover;
+  
+  }
+
+.btn{
+    background:#E86715;
+    border-color:#E86715;
+    color:black;
+    width: 250px;
+    height:50px;
+
+}
+
+  @media(max-width:480px){
+    .size h1{
+        font-size:30px;
+    }
+    .size h3{
+        font-size:20px;
+    }
+    .btn{
+        width:200px;
+    }
+   
+  
+  }
+    
+  #language{
+    border-radius: 4px;
+  }

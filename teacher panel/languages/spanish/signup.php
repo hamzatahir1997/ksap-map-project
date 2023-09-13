@@ -1,0 +1,30 @@
+<?php
+$teacher_register="Registrar";
+$create_account="Crear cuenta";
+$namel="Nombre";
+$namep="Introduce tu nombre";
+$emaill="Email";
+$emailp="Introduce tu email";
+$passwordl="Contraseña";
+$passwordp="Introduce tu Contraseña";
+$rpasswordl="Vuelve a introducir tu Contraseña";
+$rpasswordp="Vuelve a introducir tu Contraseña";
+$codel="Codigo";
+$codep="introduce tu codigo";
+$agencyl="Selecciona la agencia";
+$agencyp="Selecciona uno";
+$sign_up="Registrarme";
+$already="Ya tengo una cuenta";
+$em1="Llena todos los campos";
+$em2 = "La Contraseña no coincide";
+$em3 = "Correo electronico invalido";
+$em4 = "El codigo de la escuela es incorrecto";
+$em5 = "El codigo de la escuela no coincide con la agencia";
+$em6= "Este correo electronico ya exixte";
+$em7 = "El nombre de usuario ya existe";
+$sm1 = "Cuenta creada exitosamente";
+$errort="Error";
+$successt="Exitoso";
+$info1="Entrar a mi cuenta";
+$info2="Presiona aqui";
+?>

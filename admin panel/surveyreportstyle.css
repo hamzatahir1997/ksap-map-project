@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+ overflow-x: hidden;
+  width:100%;
+}
+@media print { 
+  .noprint { 
+     display: none; 
+  }
+
+
+  .table thead th{
+    color:black !important;
+  }
+  tr .th{
+    color:black !important;
+}
+}
+
+
+.container-fluid{
+  padding:0 !important;
+  margin:0 !important;
+  height:auto;
+  width:auto;
+ }
+
+
+/* for Upper Container */
+
+@media(max-width:480px){
+  .body{
+    overflow-x: hidden; 
+  }
+
+  
+  .heading{
+   
+    font-size:30px !important; 
+  }
+  .heading1{
+   
+    font-size:12px !important; 
+  }
+  .badge-primary{
+    padding-left:1% !important;
+    padding-right:1% !important;
+
+  }
+  
+}
+
+.upper-container{
+    position: relative;
+    background:url("../pics/5.png") center center;/*slide.jpg =>you image*/    
+    background-size: cover;
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding:0%;
+    margin:0%;
+  
+   
+  }
+  .lower-container{
+    
+    position: relative;
+    background:url("../pics/26.png") center center;/*slide.jpg =>you image*/    
+    background-size: cover;
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding:0%;
+    margin:0%;
+  }
+  .heading{
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+    color:white;
+    padding-top: 2%;
+    font-size:60px;
+  
+  }
+  .heading1{
+    align-content: center;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+ 
+  }
+  .badge-primary{
+
+    background-color:white;
+    align-content: center;
+    width:auto;
+    height:auto;
+    margin:auto;
+    padding-right:25px;
+    padding-left:25px;
+    border-color:white;
+  }
+  .align {
+    padding-top:0.5%;
+    padding-bottom:5%;
+  }
+  
+
+  
+
+
+.table{
+  border-spacing: 2px;
+  border-collapse: separate;
+ }
+.table td{
+  text-align: center;
+  background-color: #EAEAEA;
+}
+.table thead th{
+  border:1px solid #088497;
+  text-align: center;
+  background-color: #088497;
+  color: white;
+  border-radius: 5px;
+}
+
+tr .th{
+  border:1px solid #088497;
+  text-align: center;
+  background-color: #088497;
+  border-radius: 5px;
+  font-weight: bold;
+  color:#fff;
+}
+.badge-info{
+  background-color: #E86715;
+  border-color:#E86715;
+
+}
+
+.box{
+    width:80%;
+    height:80px;
+    background-color:#EAEAEA;
+    display:inline-block;
+    
+}
+
+.box-left{
+  float:left;
+  height:100%;
+  background-color:#E86715;
+  width:20%;
+}
+
+.box-right{
+  float:right;
+  height:100%;
+  background-color:#088497;
+  width:10%;
+  cursor : pointer;
+  border:2px solid #088497;
+  border-radius:0px 20px 20px 0px;
+}
+
+.col-lg-12,.col-md-12,.col-sm-12{
+  margin-top:10px;
+}
+
+@media(max-width:480px){
+.box{
+  height:60px;
+  width:250px;
+}
+.box h4{
+  font-size:13px;
+  font-weight: bold;
+}
+.box-left{
+  width:70px;
+  height:auto;
+}
+.box-right{
+  width:40px;
+  height:auto;
+}
+
+}
+
+ /* for Submit Button */ 
+
+ .btn-submit{
+  background: #088497;
+  border-color:#088497;
+  color:#fff;
+  font-size: 20px;
+  width:auto;
+  height:auto;
+  text-decoration: none;
+  position: relative;
+  padding-left:50px;
+  padding-right:50px;
+
+}
+.btn-submit:hover {
+  opacity: 0.9;
+  background: #088497;
+  border-color:#088497;
+  color:#fff;
+  
+}
+.logoutandback{
+  position: relative;
+  left: 1%;
+  padding-top:1%;
+}
+@media(max-width:480px){
+.btn-submit{
+  font-size: 15px;
+}
+.backscreen {
+  font-size: 15px;
+  float: right;
+  margin-bottom:20px; 
+}
+.but_logout{
+
+ font-size: 15px;
+  float: right; 
+ margin-bottom:20px;
+ margin-left:3px;
+ 
+}
+
+}
+
+
+.hide{
+  display:none !important;
+}
+
+
+
+
+.print_btn{
+  background-color:#E86715;
+  color:white;
+}
+.print_btn:hover{
+    color:white;
+  }
+.btn-year{
+  background-color: #088497;
+  color:white;
+}
+.btn-year:hover{
+  background-color: #E86715;
+  color:black;
+}
+.selectdate{
+  background-color: #088497;
+  padding:10px;
+  border-radius: 5px;
+  color: white;
+ 
+}
+.date{
+  background-color: #EAEAEA;
+}
